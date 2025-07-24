@@ -1,0 +1,2 @@
+alias: karkonnex-alias
+pw: Karkonnex123@?

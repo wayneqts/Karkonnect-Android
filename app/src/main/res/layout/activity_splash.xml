@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Splash"
+    android:orientation="vertical"
+    android:background="@drawable/bg_splash"
+    android:fitsSystemWindows="true">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        android:src="@drawable/img_logo"
+        android:layout_marginHorizontal="@dimen/dp_40" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rent_buy_sell_cars"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/color_primary"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/sp_30"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
